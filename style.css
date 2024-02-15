@@ -1,0 +1,19 @@
+header{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    background-image: url("/.img/bakgrund.jpg");
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+justify-content: left;
+}
+
+aside{
+    width: 30%;
+    background-color: lightslategray;
+    padding-right: 30%;
+}
+
