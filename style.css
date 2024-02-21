@@ -4,7 +4,11 @@ header{
     color: white;
     border: 10px;
     border-color: black;
-    background-image: url("/.img/bakgrund.jpg");
+    background-image: url("/bakgrund.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width:100%;
 }
 
 .back{
@@ -15,21 +19,31 @@ header{
    
 }
 
-.flex-container{
-display: flex;
-flex-direction: column;
-justify-content: left;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 aside{
     width: 30%;
     background-color: lightslategray;
     padding-bottom: 100%;
+   
+   
+   
+    
 }
 
 article img{
-    width: 80%;
+    width: 70%;
     height: auto;
+    align-items: flex-start;
 }
 
 
