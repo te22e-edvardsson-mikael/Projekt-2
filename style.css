@@ -1,22 +1,24 @@
 header{
-    color: white;
+
     background-image: url("/bakgrund.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
+   
+
     
 }
+h1{
+color: white;
+background-color: black;
+margin-left: 15%;
+margin-right: 15%;
+border-radius: 10px;
 
-.back{
-    background-color:black;
-    max-width: 40%;
-    margin-right: 30%;
-    margin-left: 30%;
-    align-items: center;
-   
 }
+
 
 .flex-container {
     display: flex;
@@ -32,8 +34,8 @@ button{
 
 main{
     display: flex;
-    background-color: black;
     align-items: flex-start;
+    
 }
 
 aside{
@@ -51,6 +53,11 @@ article img{
     align-items: flex-start;
 }
 
+article{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 footer{
     background-color: blue;
 }
@@ -62,5 +69,10 @@ footer{
 #meny:focus-within > #meny_content{
     display: block;
     flex-direction: column;
+}
+
+h2{
+    padding-left: 70%;
+    
 }
 
