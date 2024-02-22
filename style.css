@@ -1,18 +1,12 @@
 header{
-    padding-top: 300px;
-    text-align: center;
     color: white;
-    border: 10px;
-    border-color: black;
     background-image: url("/bakgrund.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
 }
 
 .back{
@@ -33,28 +27,22 @@ header{
 button{
     width: 100%;
     padding:10px;
-    cursor: pointer;
-    border: none;
 
 } 
-button:hover{
-    
-   background-color: blue;
-}
+
 main{
     display: flex;
-
+    background-color: black;
     align-items: flex-start;
 }
 
 aside{
-    width: 30%;
+    width: 100%;
     background-color: lightslategray;
-    padding-bottom: 100%;
+
     display: flex;
     flex-direction: column;
-    padding:0px;
-    max-width: 50px;
+   
 }
 
 article img{
@@ -72,7 +60,7 @@ footer{
 }
 
 #meny:focus-within > #meny_content{
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 
