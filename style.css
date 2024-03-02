@@ -63,7 +63,7 @@ footer{
 }
 
 #meny_content{
-    display: none;
+    display: block;
 }
 
 #meny:focus-within > #meny_content{

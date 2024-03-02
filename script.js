@@ -2,7 +2,7 @@
 //bilarna
 document.addEventListener("DOMContentLoaded", function() {
     
-    var buttons = document.querySelectorAll('.flex-conteiner button');
+    var buttons = document.querySelectorAll('.flex-container button');
 
 buttons.forEach(function(button, index) {
 
@@ -22,8 +22,13 @@ buttons.forEach(function(button, index) {
 //kundvagn
 var menyButton = document.querySelector('#meny button');
 menyButton.addEventListener('click', function(){
-    var menyContent = document.getElementsById('meny_content');
-    
-}
+    var menyContent = document.getElementById('meny_content');
+    if (menyContent.style.display === 'none'|| menyContent.style.display === ''){
+        menyContent.style.display = 'block';
+    } 
 
+    else {
+        menyContent.style.display = 'none';
+    }
+});
 });
