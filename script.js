@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(){
-   const buttons = document.querySelectorAll('.flex-conteiner button');
-buttons.forEach(button, index) {
+document.addEventListener("DOMContentLoaded", function() {
+   var buttons = document.querySelectorAll('.flex-conteiner button');
+buttons.forEach(function(button, index) {
   button.addEventListener('click', function() {
    
     var article = button.closest('article');
@@ -14,4 +14,5 @@ buttons.forEach(button, index) {
     var menyContent = document.getElementById('meny_content');
     menyContent.appendChild(newItem);
   });
+});
 });
