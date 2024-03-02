@@ -40,7 +40,7 @@ main{
 
 aside{
     width: 100%;
-    background-color: lightslategray;
+    background-color: gray;
 
     display: flex;
     flex-direction: column;
