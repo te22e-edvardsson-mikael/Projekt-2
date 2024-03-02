@@ -1,9 +1,15 @@
-document.addEventListener("DOMContentLoaded", function()){
+document.addEventListener("DOMContentLoaded"), function(){
    const buttons = document.querySelectorAll('.flex-conteiner button');
 buttons.forEach(button, index) {
-button.addEventListener('click', function() {
-    const article = button.closest('article');
-    const imgsSrc
+  button.addEventListener('click', function() {
+   
+    var article = button.closest('article');
+
+    var imgSrc = article.querySelector('img').getAttribute('src');
+    var price = article.querySelector('h2').textContent.trim();
+
+    
+
 }
 }
 
