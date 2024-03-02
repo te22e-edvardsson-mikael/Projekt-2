@@ -82,6 +82,9 @@ h2{
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
 }
+article {
+    width: calc(50%-10px);
+}
 }
     
-}
+
