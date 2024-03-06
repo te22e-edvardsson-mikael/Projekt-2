@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+body{
+    background-color: white;
+}
 
 header {
   background-size: cover;
@@ -8,19 +11,23 @@ header {
   padding-top: 9rem;
   padding-bottom: 9rem;
   background-image: url('background.jpg');
+  
 }
 h1 {
   color: white;
   background-color: black;
   margin-left: 15%;
   margin-right: 15%;
-  border-radius: 10px;
+  border-radius: 1rem;
   font-family: "Luckiest Guy", serif;
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-top: 2rem;
+  
+
 }
 
 button {
@@ -31,12 +38,12 @@ button {
 main {
   display: flex;
   align-items: flex-start;
+  text-align: center;
 }
 
 aside {
   width: 100%;
   background-color: gray;
-
   display: flex;
   flex-direction: column;
 }
@@ -54,7 +61,7 @@ article {
 
 footer {
   display: flex;
-  background-color: blue;
+  background-color: black;
   text-align: center;
   justify-content: center;
 }
@@ -89,6 +96,9 @@ footer {
   }
 }
 
-h2 {
-  text-align: center;
+footer{
+    margin-top: 2rem;
+    color: white;
+    font-family: "Luckiest Guy", serif;
 }
+

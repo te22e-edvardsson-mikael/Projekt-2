@@ -12,7 +12,7 @@ buttons.forEach(function(button, index) {
     var price = article.querySelector('h2').textContent.trim();
 
     var newItem = document.createElement('p');
-    newItem.textContent = "bil " + (index + 1) + ": " + price;
+    newItem.textContent =  "vara " + (index + 1) + ": " + price;
 
     var menyContent = document.getElementById('meny_content');
     menyContent.appendChild(newItem);
