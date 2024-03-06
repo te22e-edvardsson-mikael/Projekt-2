@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
 header {
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,6 +15,7 @@ h1 {
   margin-left: 15%;
   margin-right: 15%;
   border-radius: 10px;
+  font-family: "Luckiest Guy", serif;
 }
 .flex-container {
   display: flex;
