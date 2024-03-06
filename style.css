@@ -39,6 +39,7 @@ main {
   display: flex;
   align-items: flex-start;
   text-align: center;
+  gap: 2rem;
 }
 
 
